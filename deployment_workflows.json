@@ -1,1 +1,63 @@
-["Sample data for deployment_workflows"]
+{
+  "platforms": [
+    {
+      "name": "AWS",
+      "services": ["EC2", "ECS", "Lambda", "S3", "CloudFront", "RDS", "ElastiCache"],
+      "deployment_methods": ["CodeDeploy", "CodePipeline", "CloudFormation", "CDK"]
+    },
+    {
+      "name": "Google Cloud",
+      "services": ["Compute Engine", "Cloud Run", "App Engine", "GKE", "Cloud Storage"],
+      "deployment_methods": ["Cloud Build", "Cloud Deploy", "Terraform"]
+    },
+    {
+      "name": "Azure",
+      "services": ["App Service", "Container Instances", "AKS", "Functions", "Storage"],
+      "deployment_methods": ["Azure DevOps", "ARM Templates", "Bicep"]
+    }
+  ],
+  "containerization": [
+    "Docker", "Podman", "Kubernetes", "Docker Compose", "Helm Charts"
+  ],
+  "ci_cd_tools": [
+    "GitHub Actions", "GitLab CI", "Jenkins", "CircleCI", "Travis CI", "Azure DevOps"
+  ],
+  "deployment_strategies": [
+    "blue-green", "rolling", "canary", "a-b-testing", "feature-flags"
+  ],
+  "monitoring": [
+    "Prometheus", "Grafana", "DataDog", "New Relic", "CloudWatch", "Application Insights"
+  ],
+  "tasks": [
+    {
+      "id": "setup_ci_cd",
+      "description": "Configure continuous integration and deployment pipeline",
+      "complexity": "high",
+      "estimated_time": "1-2 days",
+      "steps": ["source_control", "build_automation", "testing", "deployment"]
+    },
+    {
+      "id": "containerize_app",
+      "description": "Create Docker containers for application",
+      "complexity": "medium",
+      "estimated_time": "4-8 hours",
+      "steps": ["dockerfile", "docker-compose", "optimization", "security"]
+    },
+    {
+      "id": "deploy_to_production",
+      "description": "Deploy application to production environment",
+      "complexity": "high",
+      "estimated_time": "2-4 hours",
+      "steps": ["pre-deployment", "deployment", "verification", "rollback-plan"]
+    }
+  ],
+  "security": [
+    "SSL/TLS", "secrets-management", "vulnerability-scanning", "access-control", "audit-logging"
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "integrator",
+    "capabilities": ["deployment", "ci_cd", "containerization", "monitoring", "scaling"]
+  }
+}

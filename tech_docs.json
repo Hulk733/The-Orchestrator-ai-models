@@ -1,1 +1,65 @@
-["Sample data for tech_docs"]
+{
+  "document_types": [
+    "API Documentation", "User Guides", "Technical Specifications", "Architecture Diagrams",
+    "Installation Guides", "Troubleshooting", "Release Notes", "Code Comments"
+  ],
+  "formats": [
+    "Markdown", "reStructuredText", "AsciiDoc", "HTML", "PDF", "Confluence", "Notion"
+  ],
+  "tools": [
+    "Sphinx", "GitBook", "Docusaurus", "VuePress", "MkDocs", "Swagger/OpenAPI", "Postman"
+  ],
+  "documentation_standards": [
+    {
+      "type": "API",
+      "requirements": ["endpoints", "parameters", "responses", "examples", "authentication"],
+      "tools": ["OpenAPI", "Swagger", "Postman", "Insomnia"]
+    },
+    {
+      "type": "Code",
+      "requirements": ["docstrings", "inline-comments", "type-hints", "examples"],
+      "tools": ["JSDoc", "Sphinx", "Doxygen", "TypeDoc"]
+    },
+    {
+      "type": "User",
+      "requirements": ["getting-started", "tutorials", "faq", "troubleshooting"],
+      "tools": ["GitBook", "Confluence", "Notion", "Wiki"]
+    }
+  ],
+  "content_structure": [
+    "Executive Summary", "Introduction", "Prerequisites", "Step-by-step Instructions",
+    "Code Examples", "Screenshots", "Troubleshooting", "FAQ", "References"
+  ],
+  "tasks": [
+    {
+      "id": "api_documentation",
+      "description": "Generate comprehensive API documentation",
+      "complexity": "medium",
+      "estimated_time": "1-2 days",
+      "deliverables": ["endpoint_docs", "authentication", "examples", "sdk_guides"]
+    },
+    {
+      "id": "user_manual",
+      "description": "Create user-friendly documentation",
+      "complexity": "medium",
+      "estimated_time": "2-3 days",
+      "deliverables": ["getting_started", "tutorials", "faq", "troubleshooting"]
+    },
+    {
+      "id": "technical_specs",
+      "description": "Document technical architecture and specifications",
+      "complexity": "high",
+      "estimated_time": "3-5 days",
+      "deliverables": ["architecture", "database_schema", "security", "performance"]
+    }
+  ],
+  "quality_metrics": [
+    "completeness", "accuracy", "clarity", "up-to-date", "searchability", "accessibility"
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "scribe",
+    "capabilities": ["documentation", "technical_writing", "api_docs", "user_guides"]
+  }
+}

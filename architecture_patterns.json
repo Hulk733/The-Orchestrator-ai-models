@@ -1,1 +1,101 @@
-["Sample data for architecture_patterns"]
+{
+  "architectural_patterns": [
+    {
+      "name": "Microservices",
+      "description": "Distributed architecture with loosely coupled services",
+      "benefits": ["scalability", "technology_diversity", "fault_isolation"],
+      "challenges": ["complexity", "network_latency", "data_consistency"],
+      "use_cases": ["large_applications", "multiple_teams", "high_scalability"]
+    },
+    {
+      "name": "Event-Driven Architecture",
+      "description": "Architecture based on event production and consumption",
+      "benefits": ["loose_coupling", "scalability", "real_time_processing"],
+      "challenges": ["event_ordering", "debugging", "eventual_consistency"],
+      "use_cases": ["real_time_systems", "iot", "streaming_data"]
+    },
+    {
+      "name": "Serverless",
+      "description": "Function-as-a-Service execution model",
+      "benefits": ["cost_efficiency", "auto_scaling", "reduced_ops"],
+      "challenges": ["cold_starts", "vendor_lock_in", "debugging"],
+      "use_cases": ["event_processing", "apis", "batch_jobs"]
+    }
+  ],
+  "design_patterns": [
+    "Singleton", "Factory", "Observer", "Strategy", "Command", "Adapter", 
+    "Decorator", "Facade", "Proxy", "MVC", "MVP", "MVVM"
+  ],
+  "integration_patterns": [
+    {
+      "name": "API Gateway",
+      "purpose": "Single entry point for microservices",
+      "features": ["routing", "authentication", "rate_limiting", "monitoring"]
+    },
+    {
+      "name": "Message Queue",
+      "purpose": "Asynchronous communication between services",
+      "features": ["decoupling", "reliability", "scalability", "buffering"]
+    },
+    {
+      "name": "Event Sourcing",
+      "purpose": "Store state changes as events",
+      "features": ["audit_trail", "replay_capability", "temporal_queries"]
+    }
+  ],
+  "scalability_patterns": [
+    "Load Balancing", "Caching", "Database Sharding", "CDN", "Auto Scaling", 
+    "Circuit Breaker", "Bulkhead", "Throttling"
+  ],
+  "data_patterns": [
+    {
+      "name": "CQRS",
+      "description": "Command Query Responsibility Segregation",
+      "benefits": ["read_write_optimization", "scalability", "flexibility"],
+      "complexity": "high"
+    },
+    {
+      "name": "Database per Service",
+      "description": "Each microservice owns its data",
+      "benefits": ["service_autonomy", "technology_choice", "fault_isolation"],
+      "complexity": "medium"
+    }
+  ],
+  "security_patterns": [
+    "Zero Trust", "Defense in Depth", "Principle of Least Privilege", 
+    "Secure by Design", "Identity and Access Management"
+  ],
+  "tasks": [
+    {
+      "id": "architecture_design",
+      "description": "Design system architecture and patterns",
+      "complexity": "high",
+      "estimated_time": "1-2 weeks",
+      "deliverables": ["architecture_diagram", "pattern_selection", "technology_stack"]
+    },
+    {
+      "id": "pattern_implementation",
+      "description": "Implement architectural patterns in codebase",
+      "complexity": "high",
+      "estimated_time": "2-4 weeks",
+      "deliverables": ["code_structure", "pattern_examples", "documentation"]
+    },
+    {
+      "id": "architecture_review",
+      "description": "Review and optimize existing architecture",
+      "complexity": "medium",
+      "estimated_time": "3-5 days",
+      "deliverables": ["review_report", "optimization_recommendations", "migration_plan"]
+    }
+  ],
+  "quality_attributes": [
+    "Performance", "Scalability", "Reliability", "Security", "Maintainability", 
+    "Usability", "Testability", "Deployability"
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "gemini",
+    "capabilities": ["architecture_design", "pattern_selection", "system_optimization", "technical_guidance"]
+  }
+}

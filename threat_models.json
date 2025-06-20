@@ -1,1 +1,115 @@
-["Sample data for threat_models"]
+{
+  "threat_categories": [
+    "Spoofing", "Tampering", "Repudiation", "Information Disclosure", 
+    "Denial of Service", "Elevation of Privilege"
+  ],
+  "attack_vectors": [
+    {
+      "name": "Web Application Attacks",
+      "techniques": ["SQL Injection", "XSS", "CSRF", "XXE", "SSRF", "Path Traversal"],
+      "impact": "high",
+      "likelihood": "medium"
+    },
+    {
+      "name": "Network Attacks",
+      "techniques": ["Man-in-the-Middle", "DNS Poisoning", "DDoS", "Port Scanning"],
+      "impact": "medium",
+      "likelihood": "medium"
+    },
+    {
+      "name": "Social Engineering",
+      "techniques": ["Phishing", "Pretexting", "Baiting", "Tailgating"],
+      "impact": "high",
+      "likelihood": "high"
+    },
+    {
+      "name": "Insider Threats",
+      "techniques": ["Data Theft", "Sabotage", "Fraud", "Espionage"],
+      "impact": "high",
+      "likelihood": "low"
+    }
+  ],
+  "threat_actors": [
+    {
+      "type": "Cybercriminals",
+      "motivation": "Financial gain",
+      "sophistication": "medium",
+      "resources": "moderate"
+    },
+    {
+      "type": "Nation-State",
+      "motivation": "Espionage, disruption",
+      "sophistication": "high",
+      "resources": "extensive"
+    },
+    {
+      "type": "Hacktivists",
+      "motivation": "Political, ideological",
+      "sophistication": "medium",
+      "resources": "limited"
+    }
+  ],
+  "risk_assessment": [
+    {
+      "asset": "Customer Data",
+      "threats": ["data_breach", "unauthorized_access", "data_corruption"],
+      "impact": "critical",
+      "likelihood": "medium",
+      "risk_score": 8
+    },
+    {
+      "asset": "Application Infrastructure",
+      "threats": ["ddos", "system_compromise", "service_disruption"],
+      "impact": "high",
+      "likelihood": "medium",
+      "risk_score": 6
+    }
+  ],
+  "mitigation_strategies": [
+    {
+      "threat": "SQL Injection",
+      "controls": ["parameterized_queries", "input_validation", "least_privilege"],
+      "effectiveness": "high"
+    },
+    {
+      "threat": "DDoS",
+      "controls": ["rate_limiting", "cdn", "load_balancing", "monitoring"],
+      "effectiveness": "medium"
+    }
+  ],
+  "modeling_methodologies": [
+    "STRIDE", "PASTA", "OCTAVE", "TARA", "Attack Trees", "Threat Libraries"
+  ],
+  "tasks": [
+    {
+      "id": "threat_assessment",
+      "description": "Comprehensive threat modeling and risk assessment",
+      "complexity": "high",
+      "estimated_time": "1-2 weeks",
+      "deliverables": ["threat_model", "risk_matrix", "mitigation_plan"]
+    },
+    {
+      "id": "attack_simulation",
+      "description": "Simulate potential attack scenarios",
+      "complexity": "high",
+      "estimated_time": "3-5 days",
+      "deliverables": ["attack_scenarios", "impact_analysis", "response_plan"]
+    },
+    {
+      "id": "security_monitoring",
+      "description": "Implement threat detection and monitoring",
+      "complexity": "medium",
+      "estimated_time": "1-2 days",
+      "deliverables": ["monitoring_rules", "alerting", "incident_response"]
+    }
+  ],
+  "compliance_mapping": [
+    "NIST CSF", "ISO 27001", "CIS Controls", "OWASP ASVS", "PCI DSS"
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "sentinel",
+    "capabilities": ["threat_modeling", "risk_assessment", "attack_simulation", "security_monitoring"]
+  }
+}

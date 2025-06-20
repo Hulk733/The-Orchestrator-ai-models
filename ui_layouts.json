@@ -1,1 +1,66 @@
-["Sample data for ui_layouts"]
+{
+  "layout_types": [
+    "grid", "flexbox", "masonry", "sidebar", "header-footer", "dashboard", "card-based", "timeline"
+  ],
+  "components": [
+    {
+      "name": "navigation",
+      "variants": ["top-nav", "side-nav", "breadcrumb", "pagination", "tabs"],
+      "properties": ["responsive", "collapsible", "sticky", "animated"]
+    },
+    {
+      "name": "forms",
+      "variants": ["login", "registration", "contact", "multi-step", "validation"],
+      "properties": ["real-time-validation", "auto-save", "conditional-fields"]
+    },
+    {
+      "name": "data-display",
+      "variants": ["tables", "charts", "lists", "cards", "galleries"],
+      "properties": ["sortable", "filterable", "searchable", "paginated"]
+    }
+  ],
+  "design_systems": [
+    "Material Design", "Ant Design", "Chakra UI", "Bootstrap", "Tailwind CSS", "Bulma"
+  ],
+  "responsive_breakpoints": {
+    "mobile": "320px-768px",
+    "tablet": "768px-1024px",
+    "desktop": "1024px-1440px",
+    "large": "1440px+"
+  },
+  "color_schemes": [
+    "light", "dark", "auto", "high-contrast", "custom-brand"
+  ],
+  "tasks": [
+    {
+      "id": "create_dashboard",
+      "description": "Design responsive dashboard layout",
+      "complexity": "high",
+      "estimated_time": "1-2 days",
+      "components": ["charts", "metrics", "navigation", "filters"]
+    },
+    {
+      "id": "design_landing_page",
+      "description": "Create compelling landing page layout",
+      "complexity": "medium",
+      "estimated_time": "4-8 hours",
+      "components": ["hero", "features", "testimonials", "cta"]
+    },
+    {
+      "id": "mobile_optimization",
+      "description": "Optimize layouts for mobile devices",
+      "complexity": "medium",
+      "estimated_time": "2-4 hours",
+      "components": ["responsive-grid", "touch-friendly", "performance"]
+    }
+  ],
+  "accessibility": [
+    "WCAG 2.1 AA", "keyboard-navigation", "screen-reader", "color-contrast", "focus-indicators"
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "blueprint",
+    "capabilities": ["ui_design", "responsive_layout", "accessibility", "prototyping"]
+  }
+}

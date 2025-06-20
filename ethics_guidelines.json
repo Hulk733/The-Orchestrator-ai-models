@@ -1,1 +1,96 @@
-["Sample data for ethics_guidelines"]
+{
+  "ethical_principles": [
+    "Transparency", "Fairness", "Accountability", "Privacy", "Human Autonomy", 
+    "Beneficence", "Non-maleficence", "Justice", "Explainability"
+  ],
+  "ai_ethics_frameworks": [
+    {
+      "name": "IEEE Ethically Aligned Design",
+      "focus": "Human rights, well-being, data agency",
+      "principles": ["human_rights", "well_being", "data_agency"]
+    },
+    {
+      "name": "Partnership on AI Tenets",
+      "focus": "Beneficial AI development",
+      "principles": ["safety", "fairness", "accountability", "transparency"]
+    },
+    {
+      "name": "EU Ethics Guidelines for AI",
+      "focus": "Trustworthy AI",
+      "principles": ["lawful", "ethical", "robust"]
+    }
+  ],
+  "bias_types": [
+    {
+      "name": "Algorithmic Bias",
+      "description": "Systematic errors in AI decision-making",
+      "examples": ["gender_bias", "racial_bias", "age_bias"],
+      "mitigation": ["diverse_datasets", "bias_testing", "algorithmic_auditing"]
+    },
+    {
+      "name": "Data Bias",
+      "description": "Biased training data leading to unfair outcomes",
+      "examples": ["historical_bias", "representation_bias", "measurement_bias"],
+      "mitigation": ["data_auditing", "balanced_sampling", "bias_correction"]
+    }
+  ],
+  "privacy_principles": [
+    "Data Minimization", "Purpose Limitation", "Consent", "Transparency", 
+    "User Control", "Security", "Accountability"
+  ],
+  "ethical_considerations": [
+    {
+      "area": "Data Collection",
+      "guidelines": ["informed_consent", "minimal_collection", "purpose_specification"],
+      "risks": ["privacy_violation", "surveillance", "discrimination"]
+    },
+    {
+      "area": "Algorithm Development",
+      "guidelines": ["fairness_testing", "bias_mitigation", "explainability"],
+      "risks": ["discriminatory_outcomes", "lack_of_transparency", "harmful_decisions"]
+    },
+    {
+      "area": "Deployment",
+      "guidelines": ["impact_assessment", "monitoring", "human_oversight"],
+      "risks": ["unintended_consequences", "misuse", "dependency"]
+    }
+  ],
+  "stakeholder_considerations": [
+    "End Users", "Affected Communities", "Developers", "Organizations", "Society", "Regulators"
+  ],
+  "tasks": [
+    {
+      "id": "ethics_review",
+      "description": "Comprehensive ethical review of AI systems",
+      "complexity": "high",
+      "estimated_time": "1-2 weeks",
+      "deliverables": ["ethics_assessment", "risk_analysis", "mitigation_plan"]
+    },
+    {
+      "id": "bias_audit",
+      "description": "Audit AI systems for bias and fairness",
+      "complexity": "medium",
+      "estimated_time": "3-5 days",
+      "deliverables": ["bias_report", "fairness_metrics", "recommendations"]
+    },
+    {
+      "id": "privacy_impact_assessment",
+      "description": "Assess privacy implications of data processing",
+      "complexity": "medium",
+      "estimated_time": "2-3 days",
+      "deliverables": ["privacy_assessment", "risk_mitigation", "compliance_check"]
+    }
+  ],
+  "compliance_standards": [
+    "GDPR", "CCPA", "AI Act (EU)", "Algorithmic Accountability Act", "IEEE Standards"
+  ],
+  "monitoring_metrics": [
+    "Fairness Metrics", "Bias Detection", "Privacy Compliance", "User Satisfaction", "Societal Impact"
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "guardian",
+    "capabilities": ["ethics_review", "bias_detection", "privacy_assessment", "compliance_monitoring"]
+  }
+}

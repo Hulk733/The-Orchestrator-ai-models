@@ -1,1 +1,70 @@
-["Sample data for feature_sets"]
+{
+  "feature_categories": [
+    "Authentication", "User Management", "Data Processing", "API Integration",
+    "Real-time Communication", "Analytics", "Security", "Performance", "UI/UX"
+  ],
+  "development_phases": [
+    "Research", "Design", "Prototyping", "Development", "Testing", "Deployment", "Monitoring"
+  ],
+  "feature_types": [
+    {
+      "name": "Core Features",
+      "priority": "high",
+      "examples": ["user_authentication", "data_crud", "basic_navigation"],
+      "complexity": "medium"
+    },
+    {
+      "name": "Advanced Features",
+      "priority": "medium",
+      "examples": ["real_time_sync", "advanced_analytics", "ai_integration"],
+      "complexity": "high"
+    },
+    {
+      "name": "Nice-to-have Features",
+      "priority": "low",
+      "examples": ["dark_mode", "export_options", "social_sharing"],
+      "complexity": "low"
+    }
+  ],
+  "implementation_patterns": [
+    "Feature Flags", "A/B Testing", "Progressive Rollout", "Beta Testing", "Canary Deployment"
+  ],
+  "quality_gates": [
+    "Code Review", "Unit Testing", "Integration Testing", "Performance Testing", "Security Audit"
+  ],
+  "tasks": [
+    {
+      "id": "feature_planning",
+      "description": "Plan and design new feature implementation",
+      "complexity": "medium",
+      "estimated_time": "1-2 days",
+      "phases": ["research", "requirements", "design", "estimation"]
+    },
+    {
+      "id": "feature_development",
+      "description": "Implement feature according to specifications",
+      "complexity": "high",
+      "estimated_time": "1-2 weeks",
+      "phases": ["coding", "testing", "documentation", "review"]
+    },
+    {
+      "id": "feature_rollout",
+      "description": "Deploy and monitor feature in production",
+      "complexity": "medium",
+      "estimated_time": "2-3 days",
+      "phases": ["deployment", "monitoring", "feedback", "optimization"]
+    }
+  ],
+  "metrics": [
+    "User Adoption", "Performance Impact", "Error Rates", "User Satisfaction", "Business Value"
+  ],
+  "tools": [
+    "Feature Flag Services", "Analytics Platforms", "A/B Testing Tools", "User Feedback Systems"
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "featuresmith",
+    "capabilities": ["feature_planning", "implementation", "testing", "rollout", "optimization"]
+  }
+}

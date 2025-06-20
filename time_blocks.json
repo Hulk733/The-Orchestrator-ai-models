@@ -1,1 +1,129 @@
-["Sample data for time_blocks"]
+{
+  "scheduling_types": [
+    {
+      "name": "Task Scheduling",
+      "description": "Schedule individual tasks and activities",
+      "granularity": "minutes",
+      "use_cases": ["project_management", "personal_productivity", "team_coordination"]
+    },
+    {
+      "name": "Resource Scheduling",
+      "description": "Schedule shared resources and facilities",
+      "granularity": "hours",
+      "use_cases": ["meeting_rooms", "equipment", "personnel"]
+    },
+    {
+      "name": "Event Scheduling",
+      "description": "Schedule events and appointments",
+      "granularity": "hours",
+      "use_cases": ["meetings", "conferences", "deadlines"]
+    }
+  ],
+  "time_patterns": [
+    {
+      "pattern": "Daily",
+      "frequency": "every_day",
+      "examples": ["standup_meetings", "daily_reports", "routine_tasks"]
+    },
+    {
+      "pattern": "Weekly",
+      "frequency": "every_week",
+      "examples": ["team_meetings", "sprint_planning", "weekly_reviews"]
+    },
+    {
+      "pattern": "Monthly",
+      "frequency": "every_month",
+      "examples": ["monthly_reports", "performance_reviews", "planning_sessions"]
+    },
+    {
+      "pattern": "Custom",
+      "frequency": "user_defined",
+      "examples": ["project_milestones", "seasonal_tasks", "irregular_events"]
+    }
+  ],
+  "priority_levels": [
+    {
+      "level": "Critical",
+      "description": "Must be completed immediately",
+      "color": "red",
+      "escalation": "immediate"
+    },
+    {
+      "level": "High",
+      "description": "Important tasks with tight deadlines",
+      "color": "orange",
+      "escalation": "within_hours"
+    },
+    {
+      "level": "Medium",
+      "description": "Standard priority tasks",
+      "color": "yellow",
+      "escalation": "within_days"
+    },
+    {
+      "level": "Low",
+      "description": "Nice-to-have tasks",
+      "color": "green",
+      "escalation": "when_available"
+    }
+  ],
+  "scheduling_algorithms": [
+    "First Come First Serve", "Shortest Job First", "Priority Scheduling", 
+    "Round Robin", "Earliest Deadline First", "Resource Leveling"
+  ],
+  "calendar_integrations": [
+    "Google Calendar", "Outlook", "Apple Calendar", "Calendly", "Zoom", "Teams"
+  ],
+  "automation_features": [
+    {
+      "feature": "Smart Scheduling",
+      "description": "AI-powered optimal time slot selection",
+      "benefits": ["efficiency", "conflict_avoidance", "preference_learning"]
+    },
+    {
+      "feature": "Buffer Time",
+      "description": "Automatic buffer time between meetings",
+      "benefits": ["travel_time", "preparation", "break_time"]
+    },
+    {
+      "feature": "Recurring Events",
+      "description": "Automatic scheduling of recurring events",
+      "benefits": ["consistency", "reduced_manual_work", "pattern_recognition"]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "schedule_optimization",
+      "description": "Optimize scheduling for maximum efficiency",
+      "complexity": "high",
+      "estimated_time": "2-3 days",
+      "deliverables": ["optimized_schedule", "conflict_resolution", "efficiency_metrics"]
+    },
+    {
+      "id": "calendar_integration",
+      "description": "Integrate with external calendar systems",
+      "complexity": "medium",
+      "estimated_time": "1-2 days",
+      "deliverables": ["api_integration", "sync_mechanism", "conflict_handling"]
+    },
+    {
+      "id": "automated_scheduling",
+      "description": "Implement automated scheduling features",
+      "complexity": "high",
+      "estimated_time": "3-5 days",
+      "deliverables": ["scheduling_engine", "rule_configuration", "user_preferences"]
+    }
+  ],
+  "metrics": [
+    "Schedule Utilization", "Conflict Rate", "Response Time", "User Satisfaction", "Efficiency Score"
+  ],
+  "notification_types": [
+    "Reminders", "Conflicts", "Updates", "Cancellations", "Invitations"
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "scheduler",
+    "capabilities": ["time_management", "calendar_integration", "automated_scheduling", "optimization"]
+  }
+}

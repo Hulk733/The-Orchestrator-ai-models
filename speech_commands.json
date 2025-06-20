@@ -1,1 +1,139 @@
-["Sample data for speech_commands"]
+{
+  "command_categories": [
+    {
+      "category": "Navigation",
+      "commands": ["go to", "open", "close", "back", "forward", "home", "search"],
+      "examples": ["go to dashboard", "open settings", "search for projects"]
+    },
+    {
+      "category": "Actions",
+      "commands": ["create", "delete", "edit", "save", "cancel", "submit", "copy"],
+      "examples": ["create new project", "delete file", "save document"]
+    },
+    {
+      "category": "System Control",
+      "commands": ["start", "stop", "pause", "resume", "restart", "shutdown"],
+      "examples": ["start recording", "pause playback", "restart application"]
+    },
+    {
+      "category": "Data Manipulation",
+      "commands": ["filter", "sort", "group", "export", "import", "refresh"],
+      "examples": ["filter by date", "sort by name", "export to CSV"]
+    }
+  ],
+  "speech_recognition": [
+    {
+      "engine": "Google Speech-to-Text",
+      "accuracy": "95%",
+      "languages": 125,
+      "features": ["real_time", "noise_reduction", "speaker_adaptation"]
+    },
+    {
+      "engine": "Amazon Transcribe",
+      "accuracy": "94%",
+      "languages": 31,
+      "features": ["custom_vocabulary", "speaker_identification", "confidence_scores"]
+    },
+    {
+      "engine": "Microsoft Speech Services",
+      "accuracy": "94%",
+      "languages": 85,
+      "features": ["custom_models", "batch_processing", "real_time_streaming"]
+    }
+  ],
+  "natural_language_processing": [
+    {
+      "technique": "Intent Recognition",
+      "purpose": "Identify user's intended action",
+      "tools": ["spaCy", "NLTK", "Rasa", "Dialogflow"]
+    },
+    {
+      "technique": "Entity Extraction",
+      "purpose": "Extract relevant information from speech",
+      "tools": ["Named Entity Recognition", "Custom Entity Models"]
+    },
+    {
+      "technique": "Context Understanding",
+      "purpose": "Maintain conversation context",
+      "tools": ["Context Managers", "Session State", "Memory Systems"]
+    }
+  ],
+  "voice_synthesis": [
+    {
+      "engine": "Amazon Polly",
+      "voices": 60,
+      "languages": 29,
+      "features": ["SSML", "neural_voices", "custom_lexicons"]
+    },
+    {
+      "engine": "Google Text-to-Speech",
+      "voices": 220,
+      "languages": 40,
+      "features": ["WaveNet", "custom_voices", "audio_profiles"]
+    },
+    {
+      "engine": "Microsoft Speech Services",
+      "voices": 270,
+      "languages": 110,
+      "features": ["neural_voices", "custom_voice", "emotion_styles"]
+    }
+  ],
+  "interaction_patterns": [
+    {
+      "pattern": "Wake Word",
+      "description": "Activate voice interface with specific phrase",
+      "examples": ["Hey Assistant", "Computer", "Empirion"]
+    },
+    {
+      "pattern": "Push-to-Talk",
+      "description": "Hold button to activate voice input",
+      "use_cases": ["noisy_environments", "privacy_concerns"]
+    },
+    {
+      "pattern": "Continuous Listening",
+      "description": "Always listening for commands",
+      "use_cases": ["hands_free_operation", "accessibility"]
+    }
+  ],
+  "accessibility_features": [
+    "Voice Navigation", "Screen Reader Integration", "Voice Commands for Mobility",
+    "Multi-language Support", "Accent Recognition", "Speech Impediment Support"
+  ],
+  "tasks": [
+    {
+      "id": "voice_interface_setup",
+      "description": "Set up voice command interface",
+      "complexity": "medium",
+      "estimated_time": "2-3 days",
+      "deliverables": ["speech_recognition", "command_processing", "voice_feedback"]
+    },
+    {
+      "id": "custom_commands",
+      "description": "Implement custom voice commands",
+      "complexity": "medium",
+      "estimated_time": "1-2 days",
+      "deliverables": ["command_definitions", "intent_mapping", "response_handling"]
+    },
+    {
+      "id": "voice_training",
+      "description": "Train voice recognition for specific users",
+      "complexity": "low",
+      "estimated_time": "1 day",
+      "deliverables": ["user_profiles", "voice_samples", "accuracy_metrics"]
+    }
+  ],
+  "privacy_considerations": [
+    "Local Processing", "Data Encryption", "User Consent", "Data Retention Policies",
+    "Opt-out Options", "Anonymization"
+  ],
+  "performance_metrics": [
+    "Recognition Accuracy", "Response Time", "Command Success Rate", "User Satisfaction",
+    "False Positive Rate", "Wake Word Accuracy"
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "voicebox",
+    "capabilities": ["speech_recognition", "voice_synthesis", "command_processing", "natural_language_understanding"]
+  }
+}

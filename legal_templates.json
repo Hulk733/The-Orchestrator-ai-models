@@ -1,1 +1,84 @@
-["Sample data for legal_templates"]
+{
+  "document_types": [
+    "Terms of Service", "Privacy Policy", "Data Processing Agreement", "Software License",
+    "Non-Disclosure Agreement", "Service Level Agreement", "Cookie Policy", "GDPR Compliance"
+  ],
+  "jurisdictions": [
+    "United States", "European Union", "United Kingdom", "Canada", "Australia", "California (CCPA)"
+  ],
+  "compliance_frameworks": [
+    {
+      "name": "GDPR",
+      "region": "European Union",
+      "requirements": ["lawful_basis", "consent", "data_subject_rights", "breach_notification"],
+      "penalties": "Up to 4% of annual revenue"
+    },
+    {
+      "name": "CCPA",
+      "region": "California",
+      "requirements": ["right_to_know", "right_to_delete", "right_to_opt_out", "non_discrimination"],
+      "penalties": "Up to $7,500 per violation"
+    },
+    {
+      "name": "HIPAA",
+      "region": "United States",
+      "requirements": ["protected_health_info", "business_associate", "security_rule", "breach_notification"],
+      "penalties": "Up to $1.5M per incident"
+    }
+  ],
+  "license_types": [
+    "MIT", "Apache 2.0", "GPL v3", "BSD", "Creative Commons", "Proprietary", "Commercial"
+  ],
+  "contract_clauses": [
+    {
+      "type": "Limitation of Liability",
+      "purpose": "Limit financial exposure",
+      "enforceability": "Generally enforceable with exceptions"
+    },
+    {
+      "type": "Indemnification",
+      "purpose": "Transfer risk between parties",
+      "enforceability": "Enforceable if reasonable"
+    },
+    {
+      "type": "Force Majeure",
+      "purpose": "Excuse performance during extraordinary events",
+      "enforceability": "Enforceable if specific"
+    }
+  ],
+  "data_categories": [
+    "Personal Data", "Sensitive Personal Data", "Financial Data", "Health Data", "Biometric Data"
+  ],
+  "tasks": [
+    {
+      "id": "privacy_policy_generation",
+      "description": "Generate comprehensive privacy policy",
+      "complexity": "medium",
+      "estimated_time": "1-2 days",
+      "requirements": ["data_mapping", "legal_basis", "user_rights", "contact_info"]
+    },
+    {
+      "id": "terms_of_service",
+      "description": "Create terms of service agreement",
+      "complexity": "medium",
+      "estimated_time": "1-2 days",
+      "requirements": ["service_description", "user_obligations", "limitations", "termination"]
+    },
+    {
+      "id": "compliance_audit",
+      "description": "Audit legal compliance across jurisdictions",
+      "complexity": "high",
+      "estimated_time": "1-2 weeks",
+      "scope": ["document_review", "gap_analysis", "recommendations", "implementation"]
+    }
+  ],
+  "risk_assessment": [
+    "Data Breach", "Regulatory Fines", "Litigation", "Reputation Damage", "Business Interruption"
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "juris",
+    "capabilities": ["legal_document_generation", "compliance_analysis", "risk_assessment", "contract_review"]
+  }
+}

@@ -1,1 +1,76 @@
-["Sample data for security_protocols"]
+{
+  "authentication_methods": [
+    "OAuth 2.0", "JWT", "SAML", "Multi-Factor Authentication", "Biometric", "API Keys"
+  ],
+  "encryption_standards": [
+    "AES-256", "RSA-2048", "TLS 1.3", "HTTPS", "End-to-End Encryption", "At-Rest Encryption"
+  ],
+  "security_frameworks": [
+    "OWASP Top 10", "NIST Cybersecurity Framework", "ISO 27001", "SOC 2", "GDPR", "HIPAA"
+  ],
+  "vulnerability_types": [
+    {
+      "name": "Injection Attacks",
+      "examples": ["SQL Injection", "NoSQL Injection", "Command Injection", "LDAP Injection"],
+      "severity": "high",
+      "mitigation": ["input_validation", "parameterized_queries", "sanitization"]
+    },
+    {
+      "name": "Authentication Flaws",
+      "examples": ["Broken Authentication", "Session Management", "Credential Stuffing"],
+      "severity": "high",
+      "mitigation": ["mfa", "secure_sessions", "rate_limiting"]
+    },
+    {
+      "name": "Data Exposure",
+      "examples": ["Sensitive Data Exposure", "Insufficient Logging", "Security Misconfiguration"],
+      "severity": "medium",
+      "mitigation": ["encryption", "access_controls", "monitoring"]
+    }
+  ],
+  "security_tools": [
+    "Static Analysis", "Dynamic Analysis", "Dependency Scanning", "Container Scanning", "Penetration Testing"
+  ],
+  "compliance_requirements": [
+    {
+      "standard": "GDPR",
+      "requirements": ["data_protection", "consent_management", "right_to_erasure", "breach_notification"]
+    },
+    {
+      "standard": "SOC 2",
+      "requirements": ["security", "availability", "processing_integrity", "confidentiality"]
+    }
+  ],
+  "tasks": [
+    {
+      "id": "security_audit",
+      "description": "Comprehensive security assessment and audit",
+      "complexity": "high",
+      "estimated_time": "1-2 weeks",
+      "scope": ["code_review", "infrastructure", "policies", "compliance"]
+    },
+    {
+      "id": "implement_auth",
+      "description": "Implement secure authentication system",
+      "complexity": "medium",
+      "estimated_time": "3-5 days",
+      "components": ["oauth", "jwt", "mfa", "session_management"]
+    },
+    {
+      "id": "vulnerability_scan",
+      "description": "Automated vulnerability scanning and remediation",
+      "complexity": "medium",
+      "estimated_time": "1-2 days",
+      "tools": ["static_analysis", "dependency_check", "container_scan"]
+    }
+  ],
+  "incident_response": [
+    "Detection", "Analysis", "Containment", "Eradication", "Recovery", "Lessons Learned"
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "vault",
+    "capabilities": ["security_audit", "vulnerability_assessment", "compliance", "incident_response"]
+  }
+}

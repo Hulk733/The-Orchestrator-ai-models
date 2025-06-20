@@ -1,1 +1,53 @@
-["Sample data for codegen_stack"]
+{
+  "frameworks": [
+    "React", "Vue.js", "Angular", "Svelte", "Next.js", "Nuxt.js",
+    "Express.js", "FastAPI", "Django", "Flask", "Spring Boot", "Laravel"
+  ],
+  "languages": [
+    "JavaScript", "TypeScript", "Python", "Java", "C#", "Go", "Rust", "PHP", "Ruby"
+  ],
+  "databases": [
+    "PostgreSQL", "MySQL", "MongoDB", "Redis", "SQLite", "Cassandra", "DynamoDB"
+  ],
+  "cloud_platforms": [
+    "AWS", "Google Cloud", "Azure", "Vercel", "Netlify", "Heroku", "DigitalOcean"
+  ],
+  "tools": [
+    "Docker", "Kubernetes", "Jenkins", "GitHub Actions", "Terraform", "Ansible"
+  ],
+  "patterns": [
+    "MVC", "MVP", "MVVM", "Microservices", "Serverless", "Event-Driven", "CQRS"
+  ],
+  "testing": [
+    "Jest", "Pytest", "JUnit", "Cypress", "Selenium", "Postman", "Artillery"
+  ],
+  "tasks": [
+    {
+      "id": "generate_api",
+      "description": "Generate RESTful API endpoints",
+      "complexity": "medium",
+      "estimated_time": "2-4 hours",
+      "dependencies": ["database_schema", "authentication"]
+    },
+    {
+      "id": "create_frontend",
+      "description": "Build responsive frontend interface",
+      "complexity": "high",
+      "estimated_time": "1-2 days",
+      "dependencies": ["ui_design", "api_endpoints"]
+    },
+    {
+      "id": "setup_database",
+      "description": "Configure database schema and migrations",
+      "complexity": "medium",
+      "estimated_time": "3-6 hours",
+      "dependencies": ["data_models"]
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "last_updated": "2024-01-15",
+    "agent_type": "builder",
+    "capabilities": ["code_generation", "architecture_design", "testing", "deployment"]
+  }
+}
