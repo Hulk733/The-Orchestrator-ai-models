@@ -1,0 +1,15 @@
+{
+  "builder": ["datasets/codegen_stack.json"],
+  "blueprint": ["datasets/ui_layouts.json"],
+  "integrator": ["datasets/deployment_workflows.json"],
+  "scribe": ["datasets/tech_docs.json"],
+  "featuresmith": ["datasets/feature_sets.json"],
+  "vault": ["datasets/security_protocols.json"],
+  "juris": ["datasets/legal_templates.json"],
+  "sentinel": ["datasets/threat_models.json"],
+  "guardian": ["datasets/ethics_guidelines.json"],
+  "gemini": ["datasets/architecture_patterns.json"],
+  "scraper": ["datasets/web_sources.json"],
+  "scheduler": ["datasets/time_blocks.json"],
+  "voicebox": ["datasets/speech_commands.json"]
+}

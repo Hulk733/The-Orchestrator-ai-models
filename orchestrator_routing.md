@@ -1,0 +1,1 @@
+# Orchestrator Routing\n\nHow the orchestrator parses, scores, and delegates input to specialized agents.

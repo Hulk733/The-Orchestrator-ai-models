@@ -1,0 +1,1 @@
+# Boot Prompt Anatomy\n\nDescription of the boot-time initialization sequence and belief-mode parameters.
