@@ -1,5 +1,4 @@
 gradio
 flask
-openai
 requests
 python-dotenv
